@@ -1,0 +1,52 @@
+body {
+  background-image: url(SLPBg.jpg) ;
+  background-size: cover;
+}
+h1{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	margin: 150px 530px ;
+	font-family: "EB Garamond", cursive;
+	color: #4561A1;
+	border-bottom:2px solid #4561A1;
+	border-spacing: 5px;
+
+
+}
+p{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	margin: -80px 540px  ;
+	
+    font-family: "EB Garamond", serif;
+	color: #EC0000;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+.btn{
+	 text-transform: uppercase;
+}
+
+ .btn-info{
+
+	font-weight: 700;
+  text-transform: capitalize;
+  border-radius: 300px;
+   margin-top: 175px;
+    margin-left: -8px;
+}
+.btn-outline{
+    background-color: #4561A1;
+    margin-top: 185px;
+    margin-left: 535px;
+    font-family: "EB Garamond", cursive;
+   }
+   .btn-outline:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
